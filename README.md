@@ -92,10 +92,23 @@ python code/predict_file.py MODEL_ID path/of/image/file.jpg
 python code/predict_file.py MODEL_ID https://myurl.domain.com/image.jpg
 ```
 
+## Training Data
+
+The training data we used had the following images:
+1. HindiJokes - 492
+2. MarathiJokes - 435
+3. BengaliJokes - 720
+4. TeluguJokes - 705
+
+## RESULTS
+
+The accuracy of the model was 97%
+
+
 ## API Documentation
 
 For api documentation please visit https://nanonets.com/documentation/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
