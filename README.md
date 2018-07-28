@@ -27,21 +27,30 @@ sudo pip install requests
 project
 │   README.md
 │
-└───images
-│   │
-│   └───HindiJokes
-│   │   │   file111.txt
-│   │   │   file112.txt
-│   │   │   ...
-│	│	
-│   └───TeluguJokes
-│   │   
-│   └───MarathiJokes
-│   │   
-│   └───BengaliJokes
-│		
 └───code
-    │   create_model.py
+│   └───create_model.py 
+│  
+└───images
+    │
+    └───HindiJokes
+    │   │   1.jpg
+    │   │   2.jpg
+    │   │   ...
+    │
+    └───TeluguJokes
+    │   │   1.jpg
+    │   │   2.jpg
+    │   │   ...
+    │   
+    └───MarathiJokes
+    │   │   1.jpg
+    │   │   2.jpg
+    │   │   ...
+    │   
+    └───BengaliJokes
+        │   1.jpg
+        │   2.jpg
+        │   ... 
 ```
 
 ## Running the code
