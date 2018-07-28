@@ -73,25 +73,17 @@ python code/get_model_state.py MODEL_ID
 ```
 
 This will output the state of the model. Once the state of the model is trained we can begin using the model. Trained is a MODEL_STATE = 5
-```
-Trained
-```
-or
-```
-MODEL_STATE = 5
-```
 
 ### Testing the model
 
 To test the model once the image has been trained either pass a file or pass a url:
 
 #### File
-Run the command:
 ```
 python code/predict_file.py MODEL_ID path/of/image/file.jpg
 ```
+
 #### URL
-Run the command:
 ```
 python code/predict_file.py MODEL_ID https://myurl.domain.com/image.jpg
 ```
