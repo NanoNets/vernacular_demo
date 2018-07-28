@@ -28,7 +28,11 @@ project
 │   README.md
 │
 └───code
-│   └───create_model.py 
+│   │   create_model.py 
+│   │   get_model_state.py 
+│   │   predict_file.py
+│   │   predict_url.py
+│  
 │  
 └───images
     │
@@ -55,10 +59,43 @@ project
 
 ## Running the code
 
-to run the code simply run:
+### Creating a model
+To create a model run:
 ```
 python code/create_model.py
 ```
+This will create a model, upload the data and train the model. This will take a while to run. This will also print a MODEL_ID you need this for the next step.
+
+### Checking model state
+To test the state of the model run:
+```
+python code/get_model_state.py MODEL_ID
+```
+
+This will output the state of the model. Once the state of the model is trained we can begin using the model. Trained is a MODEL_STATE = 5
+```
+Trained
+```
+or
+```
+MODEL_STATE = 5
+```
+
+### Testing the model
+
+To test the model once the image has been trained either pass a file or pass a url:
+
+#### File
+Run the command:
+```
+python code/predict_file.py MODEL_ID path/of/image/file.jpg
+```
+#### URL
+Run the command:
+```
+python code/predict_file.py MODEL_ID https://myurl.domain.com/image.jpg
+```
+
 ## API Documentation
 
 For api documentation please visit https://nanonets.com/documentation/

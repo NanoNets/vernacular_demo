@@ -38,3 +38,7 @@ url = 'https://app.nanonets.com/api/v2/ImageCategorization/Train/'
 querystring = {'modelId': model_id}
 response = requests.request('POST', url, headers=headers, auth=requests.auth.HTTPBasicAuth(API_KEY, ''), params=querystring)
 print(response.text)
+
+print "-x-x-x-x-x-x-x-x-x-"
+print "Now run:"
+print "python code get_model_state.py ", model_id
