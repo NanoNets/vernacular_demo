@@ -11,9 +11,9 @@ git clone https://github.com/sjain07/vernacular_demo.git
 
 ### Prerequisites
 
-python 2.7
-pip
-requests (install using pip install requests)
+1. python 2.7
+2. pip
+3. requests
 
 On ubuntu run:
 ```
@@ -59,9 +59,9 @@ to run the code simply run:
 ```
 python code/create_model.py
 ```
-##API Documentation
+## API Documentation
 
-For api documentation please visit nanonets.com/documentation/
+For api documentation please visit https://nanonets.com/documentation/
 
 ## License
 
