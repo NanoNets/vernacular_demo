@@ -95,10 +95,10 @@ python code/predict_file.py MODEL_ID https://myurl.domain.com/image.jpg
 ## Training Data
 
 The training data we used had the following images:
-1. HindiJokes - 492
-2. MarathiJokes - 435
-3. BengaliJokes - 720
-4. TeluguJokes - 705
+1. HindiJokes - 152
+2. MarathiJokes - 150
+3. BengaliJokes - 146
+4. TeluguJokes - 146
 
 ## RESULTS
 
