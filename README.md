@@ -22,18 +22,27 @@ sudo pip install requests
 ```
 
 ### Project Structure
-.
-+-- code
-|   +-- create_model.py
-+-- images
-|   +-- BengaliJokes
-|	|	+-- 1.jpg
-|	|	+-- 2.jpg
-|	|	+-- ...
-|   +-- HindiJokes
-|   +-- MarathiJokes
-|   +-- TeluguJokes
-+-- README.md
+
+```
+project
+│   README.md
+│
+└───images
+│   │
+│   └───HindiJokes
+│   │   │   file111.txt
+│   │   │   file112.txt
+│   │   │   ...
+│	│	
+│   └───TeluguJokes
+│   │   
+│   └───MarathiJokes
+│   │   
+│   └───BengaliJokes
+│		
+└───code
+    │   create_model.py
+```
 
 ## Running the code
 
