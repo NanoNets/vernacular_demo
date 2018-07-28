@@ -22,6 +22,7 @@ sudo pip install requests
 ```
 
 ### Project Structure
+.
 +-- code
 |   +-- create_model.py
 +-- images
@@ -32,6 +33,7 @@ sudo pip install requests
 |   +-- HindiJokes
 |   +-- MarathiJokes
 |   +-- TeluguJokes
++-- README.md
 
 ## Running the code
 
