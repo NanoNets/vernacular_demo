@@ -5,6 +5,7 @@ from os.path import isfile, join
 import os 
 dir_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
+#need to define the api key and the list of categories
 API_KEY = 'AEajS8_Eomr4xyGMxKDpvubZ3XOf6BAGR_S3lEyAd6H'
 categories = ['HindiJokes', 'TeluguJokes', 'MarathiJokes', 'BenagaliJokes']
 
