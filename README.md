@@ -58,15 +58,19 @@ project
 ```
 
 ## Running the code
+There are 3 steps:
+1. Creating a model
+2. Checking the model state
+3. Testing the model
 
-### Creating a model
+### 1. Creating a model
 To create a model run:
 ```
 python code/create_model.py
 ```
 This will create a model, upload the data and train the model. This will take a while to run. This will also print a MODEL_ID you need this for the next step.
 
-### Checking model state
+### 2. Checking model state
 To test the state of the model run:
 ```
 python code/get_model_state.py MODEL_ID
@@ -74,7 +78,7 @@ python code/get_model_state.py MODEL_ID
 
 This will output the state of the model. Once the state of the model is trained we can begin using the model. Trained is a MODEL_STATE = 5
 
-### Testing the model
+### 3. Testing the model
 
 To test the model once the image has been trained either pass a file or pass a url:
 

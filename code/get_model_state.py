@@ -15,9 +15,11 @@ response = requests.request('GET', url, auth=requests.auth.HTTPBasicAuth(API_KEY
 json_response = json.loads(response.text)
 print MODEL_STATE_DICT[json_response["state"]]
 
-if json_response["state"]==3 or json_response["state"]==4:
-	print "please wait for the model to finish training, try again in 5 minutes"
+#if json_response["state"]==3 or json_response["state"]==4:
 if json_response["state"]==5:
+	print "please wait for the model to finish training, try again in 5 minutes"
+#if json_response["state"]==5:
+if json_response["state"]==3 or json_response["state"]==4:
 	print "The model is ready to test run the command:"
 	print "python code/predict_file.py ",sys.argv[1]," images/HindiJokes/0.jpg" 
 	print "or"
