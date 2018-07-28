@@ -12,9 +12,14 @@ querystring = {'modelId': sys.argv[1]}
 
 response = requests.request('GET', url, auth=requests.auth.HTTPBasicAuth(API_KEY,''), params=querystring)
 
-print(response.text)
-
 json_response = json.loads(response.text)
-print "Model State:"
 print MODEL_STATE_DICT[json_response["state"]]
+
+if json_response["state"]==3 or json_response["state"]==4:
+	print "please wait for the model to finish training, try again in 5 minutes"
+if json_response["state"]==5:
+	print "The model is ready to test run the command:"
+	print "python code/predict_file.py ",sys.argv[1]," images/HindiJokes/0.jpg" 
+	print "or"
+	print "python code/predict_url.py ",sys.argv[1]," https://i.pinimg.com/originals/63/91/7d/63917d7eba98cb1ce837e78bc9f8afc9.jpg" 
 
