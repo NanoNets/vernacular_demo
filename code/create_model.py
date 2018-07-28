@@ -41,4 +41,4 @@ print(response.text)
 
 print "-x-x-x-x-x-x-x-x-x-"
 print "Now run:"
-print "python code get_model_state.py", model_id
+print "python code/get_model_state.py", model_id
