@@ -6,7 +6,7 @@ A project to classify images containing vernacular text using the Nanonets Image
 
 You need to clone the repository using the command:
 ```
-git clone https://github.com/sjain07/vernacular_demo.git
+git clone https://github.com/nanonets/vernacular_demo.git
 ```
 
 ### Prerequisites
