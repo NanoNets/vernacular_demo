@@ -102,7 +102,7 @@ The training data we used had the following images:
 
 ## RESULTS
 
-The accuracy of the model was 97%
+The accuracy of the model was 90%
 
 
 ## API Documentation
