@@ -7,8 +7,7 @@ dir_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 #need to define the api key and the list of categories
 API_KEY = 'AEajS8_Eomr4xyGMxKDpvubZ3XOf6BAGR_S3lEyAd6H'
-categories = ['HindiJokes', 'TeluguJokes', 'MarathiJokes', 'BengaliJokes']
-
+categories = ['Bengali', 'Gujarati', 'Hindi', 'Telugu']
 
 #Create new model
 url = 'https://app.nanonets.com/api/v2/ImageCategorization/Model/'
